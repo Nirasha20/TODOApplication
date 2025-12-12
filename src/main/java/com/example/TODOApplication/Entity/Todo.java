@@ -9,6 +9,7 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String taskContent;
+
     private String completionStatus;
 
     public Long getId() {
